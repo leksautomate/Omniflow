@@ -1,10 +1,9 @@
-﻿{
-"manifest_version": 3,
+{
+  "manifest_version": 3,
   "name": "Omniflow",
   "version": "2.2.5",
   "description": "Automate Google Flow, batch image & video generation with Veo 3.1, Nano Banana Pro, auto 4K upscale & bulk download.",
   "permissions": [
-    "identity",
     "sidePanel",
     "scripting",
     "storage",
@@ -34,9 +33,7 @@
         "https://labs.google/fx/*/tools/flow/*",
         "https://labs.google/fx/tools/flow/*"
       ],
-      "js": [
-        "inject.js"
-      ],
+      "js": ["inject.js"],
       "run_at": "document_start",
       "world": "MAIN"
     },
@@ -45,9 +42,7 @@
         "https://labs.google/fx/*/tools/flow/*",
         "https://labs.google/fx/tools/flow/*"
       ],
-      "js": [
-        "bridge.js"
-      ],
+      "js": ["bridge.js"],
       "run_at": "document_start",
       "world": "ISOLATED"
     }
