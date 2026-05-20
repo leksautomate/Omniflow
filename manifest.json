@@ -35,7 +35,7 @@
         "https://labs.google/fx/tools/flow/*"
       ],
       "js": [
-        "qw-4d5e6f7a.js"
+        "inject.js"
       ],
       "run_at": "document_start",
       "world": "MAIN"
@@ -46,7 +46,7 @@
         "https://labs.google/fx/tools/flow/*"
       ],
       "js": [
-        "zr-7f2a1b3c.js"
+        "bridge.js"
       ],
       "run_at": "document_start",
       "world": "ISOLATED"
