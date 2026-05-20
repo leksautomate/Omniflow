@@ -1,1 +1,1 @@
-﻿importScripts('core.js');
+importScripts('core.js');
